@@ -15,7 +15,6 @@ elif number[0]>number[1]:
         print('Mohammad Javad')
     else:
         print('None')
-
 elif number[1]>number[0]:
     for i in range(number[0]):
         if javad[i]==mostafa[i]:
