@@ -8,12 +8,6 @@ def divisor(number):
             if i%j==0 :
                 div.append(j)
     return div
-
-
-                
-
-
-
 num=int(input())
 res=tuple(divisor(num))
 print(len(res)-1,sum(res))
